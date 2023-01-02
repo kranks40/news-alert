@@ -9,10 +9,10 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>
+      <body className="bg-gray-200 dark:bg-zinc-900 transistion-all duration-700">
         <Header />
         {/* <Footer /> */}
-        <div>{children}</div>
+        <div className="max-w-6xl mx-auto">{children}</div>
       </body>
     </html>
   );
